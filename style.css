@@ -1,0 +1,78 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.title-text {
+  font-weight: bolder;
+}
+
+.app-image {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-google {
+  background: linear-gradient(300deg, #fa2313, #f8ff2f, #2ec600, #13c1f1);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+.check {
+  background: linear-gradient(300deg, #2ec600, #bdf113, #46c900);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+.hat {
+  background: linear-gradient(300deg, #006dc6, #13c1f1, #0057c9);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+.heart {
+  background: linear-gradient(300deg, #a40101, #fb01e2, #a00000);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+#testimonial {
+  background-color: rgba(103, 104, 104, 0.265);
+}
+
+.testi-image {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.testi-sponsors {
+  height: 30px; 
+  width: auto;
+}
